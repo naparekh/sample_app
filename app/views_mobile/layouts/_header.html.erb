@@ -1,0 +1,24 @@
+<header>
+  <div class="inside">
+    
+    <%= link_to "sample app", root_path, id: "logo" %>
+    
+    <nav>
+      <%= link_to " ",    "#", class: "entypo-list", id: "menu" %>
+      <ul>
+        <li>
+          <%= link_to "Home",    root_path, class: "entypo-home" %>
+        </li>
+        <li>
+          <%= link_to "Help",    help_path, class: "entypo-docs" %>
+        </li>
+        <li>
+          <%= link_to "About",    about_path, class: "entypo-user-add" %>
+        </li>
+        <li>
+          <%= link_to "Contact",    contact_path, class: "entypo-mail last" %>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,214 @@
+@import "bootstrap";
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Meddon);
+@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+/* CSS Document */
+
+.center {
+  text-align: center;
+  h1 {
+    margin-bottom: 10px;
+  }
+}
+
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #f7f6eb;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  box-sizing: border-box;
+  background-color: #74d4b3; 
+  position: fixed;
+  top: 0px;
+}
+
+.inside {
+  max-width: 800px;
+  margin: 0px auto;  
+  padding: 7px 30px;
+}
+
+#logo {
+  color: white;
+    font-family: 'Meddon', cursive;
+  font-size: 2.1em;
+  text-decoration: none;
+  display: inline-block;
+  float: left;
+}
+
+header #menu {
+  float: right;
+  color: white;
+  font-size: 2.6em;
+  text-decoration: none;
+  margin-top: 13px;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 80px;
+  right: 0px;
+  display: none;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  width: 100px;
+  padding: 15px 25px;
+  display: inline-block;
+  background-color: white;
+  color: #74d4b3;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 1em;
+  text-decoration: none;
+  border-bottom: 1px dashed #74d4b3;
+}
+
+header nav ul li a:hover {
+  color: white;
+  background-color: #74d4b3;
+}
+
+header nav ul li a.last {
+  border: none;
+}
+
+section article {
+  width: 92%;
+  margin: 0 auto;
+  padding: 3%;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 0.8em;
+}
+
+section h1 {
+  width: 92%;
+  margin: 0px auto;
+  margin-top: 85px;
+  padding: 3%;
+  background-color: white;
+  color: #515151;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+}
+
+section #works, section #about, section #contact {
+  width: 98%;
+  margin: 10px auto;
+  padding: 0px;
+}
+
+section h2 {
+  width: 100%;
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  background-color: #ef8974;
+  margin: 35px 0px;
+  padding: 15px 0px;
+}
+
+section .work {
+  margin: 15px auto;
+  background-color: white;
+}
+
+section .work div {
+  width: 100%;
+  height: 240px;
+  background-color: #eee;
+  margin: 10px auto;
+  background: url('http://placekitten.com/g/800/240') no-repeat;
+}
+
+section .about  {
+  margin: 15px auto;
+  background-color: white;
+  padding: 20px;
+}
+
+section h3 {
+  width: 100%;
+  color: #515151;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  margin: 0px;
+  padding: 15px 0px;
+}
+
+section .work p {
+  padding: 5px 20px;
+  background-color: white;
+}
+
+section .contact textarea {
+  width: 94%;
+  height: 200px;
+  margin: 0px auto;
+  padding: 3%;
+  border: none;
+  color: #515151;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.4em;
+  font-weight: 400;
+}
+
+section .contact input {
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+  background-color: #ed6e64;
+  border: none;
+  margin-top: 10px;
+  padding: 5px 20px;
+}
+
+footer {
+  width: 94%;
+  margin: 0px auto;
+  padding: 1% 3%;
+  background-color: white;
+  color: #515151;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+  font-size: 3em;
+  text-align: center;
+}
+
+footer ul {
+  padding: 10px 0px;
+  margin: 0px;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 0px 15px;
+}
+
+footer ul li a {
+  color: #74d4b3;
+  text-decoration: none;
+}
+

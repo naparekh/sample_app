@@ -14,3 +14,15 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+
+$('#menu').click(function() {
+  
+  $('header nav ul').fadeToggle();
+   return false;
+});
+
+$('header nav ul a').click(function() {
+  
+   $('header nav ul').fadeOut();
+});

@@ -4,6 +4,13 @@
       <%= link_to "sample app", root_path, id: "logo" %>
       <nav>
         <ul class="nav pull-right">
+          <li>
+            <% if mobile_device? %>
+              <%= link_to "Full Site", :mobile => 0 %>
+            <% else %>
+              <%= link_to "Mobile Site", :mobile => 1 %>
+            <% end %>
+          </li>
           <li><%= link_to "Home",    root_path %></li>
           <li><%= link_to "Help",    help_path %></li>
           <li><%= link_to "Sign in", '#' %></li>
